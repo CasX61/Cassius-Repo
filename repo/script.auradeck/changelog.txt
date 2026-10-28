@@ -1,0 +1,5 @@
+v1.0.0
+- First release: full screen Navidrome client with home shelves, artist pages,
+  albums, playlists, favourites, genres, radio, search with history, synced
+  lyrics, now playing view, ratings, offline downloads, scrobbling and home
+  screen widgets.

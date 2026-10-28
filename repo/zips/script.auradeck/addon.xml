@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.auradeck" name="Aura-Deck" version="1.0.0" provider-name="CasX61">
+    <requires>
+        <!-- 3.0.1 = Kodi 20 Nexus: ListItem.getMusicInfoTag() and friends -->
+        <import addon="xbmc.python" version="3.0.1"/>
+    </requires>
+
+    <!-- One entry point, so the addon is listed once under music add-ons:
+         its root opens the full screen app (default.py, started via RunScript),
+         ?action=widgets lists plain directories for home screen widgets. -->
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>audio</provides>
+    </extension>
+
+    <!-- Scrobbling and "now playing" reports, also for widget playback -->
+    <extension point="xbmc.service" library="service.py"/>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A modern Navidrome client for Kodi</summary>
+        <summary lang="de_DE">Ein moderner Navidrome-Client für Kodi</summary>
+        <description lang="en_GB">Aura-Deck turns Kodi into a modern music player for your Navidrome server: a home screen with shelves for recently played, new and favourite music, artist pages with biographies, synced lyrics, a full screen now playing view, playlists, favourites and ratings, offline downloads, scrobbling and home screen widgets. Playback runs through Kodi's own player, so gapless playback, ReplayGain and remote apps keep working.</description>
+        <description lang="de_DE">Aura-Deck macht Kodi zu einem modernen Musikplayer für deinen Navidrome-Server: Startseite mit Reihen für zuletzt gespielte, neue und Lieblingsmusik, Künstlerseiten mit Biografie, synchronisierte Songtexte, ein Vollbild-„Läuft gerade“, Playlists, Favoriten und Bewertungen, Offline-Downloads, Scrobbling und Widgets für den Home-Screen. Abgespielt wird über Kodis eigenen Player, damit lückenlose Wiedergabe, ReplayGain und Fernbedienungs-Apps funktionieren.</description>
+        <disclaimer lang="en_GB">Not affiliated with the Navidrome project.</disclaimer>
+        <disclaimer lang="de_DE">Kein offizielles Projekt von Navidrome.</disclaimer>
+        <platform>all</platform>
+        <!-- Keeps the widget plugin's interpreter (and its response cache) warm between calls -->
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>GPL-3.0-or-later</license>
+        <website>https://github.com/CasX61/Aura-Deck--Navidrome-Client-for-Kodi</website>
+        <source>https://github.com/CasX61/Aura-Deck--Navidrome-Client-for-Kodi</source>
+        <news>1.0.0: First release.</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
