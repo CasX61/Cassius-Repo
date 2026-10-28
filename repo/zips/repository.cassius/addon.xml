@@ -10,8 +10,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Add-ons by CasX61</summary>
         <summary lang="de_DE">Add-ons von CasX61</summary>
-        <description lang="en_GB">Repository for Aura-Deck, a modern Navidrome client for Kodi. Installs updates automatically.</description>
-        <description lang="de_DE">Repository für Aura-Deck, einen modernen Navidrome-Client für Kodi. Updates werden automatisch installiert.</description>
+        <description lang="en_GB">Repository for the Kodi add-ons by CasX61. Installs updates automatically.</description>
+        <description lang="de_DE">Repository für die Kodi-Add-ons von CasX61. Updates werden automatisch installiert.</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
