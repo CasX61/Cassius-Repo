@@ -547,21 +547,21 @@
       <left>880</left>
       <top>200</top>
       <width>920</width>
-      <height>784</height>
+      <height>816</height>
       <orientation>vertical</orientation>
-      <focusposition>3</focusposition>
-      <movement>3</movement>
+      <focusposition>2</focusposition>
+      <movement>2</movement>
       <scrolltime tween="cubic" easing="out">450</scrolltime>
       <onup condition="String.IsEqual(Window.Property(panel),lyrics)">6001</onup>
       <onup condition="String.IsEqual(Window.Property(panel),queue)">6002</onup>
       <onleft>6013</onleft>
       <visible>String.IsEqual(Window.Property(panel),lyrics) + [String.IsEqual(Window.Property(lyrics),synced) | String.IsEqual(Window.Property(lyrics),plain)]</visible>
-      <itemlayout width="920" height="112">
+      <itemlayout width="920" height="136">
         <control type="label">
           <left>0</left>
           <top>0</top>
           <width>920</width>
-          <height>112</height>
+          <height>136</height>
           <font>font32</font>
           <textcolor>73FFFFFF</textcolor>
           <align>left</align>
@@ -574,7 +574,7 @@
           <left>0</left>
           <top>0</top>
           <width>920</width>
-          <height>112</height>
+          <height>136</height>
           <font>font32</font>
           <textcolor>B3FFFFFF</textcolor>
           <align>left</align>
@@ -584,12 +584,12 @@
           <visible>!String.IsEqual(Window.Property(lyrics),synced)</visible>
         </control>
       </itemlayout>
-      <focusedlayout width="920" height="112">
+      <focusedlayout width="920" height="136">
         <control type="image">
           <left>-20</left>
           <top>4</top>
           <width>940</width>
-          <height>104</height>
+          <height>128</height>
           <texture border="12">round_12.png</texture>
           <colordiffuse>2EFFFFFF</colordiffuse>
           <visible>Control.HasFocus(6100)</visible>
@@ -598,20 +598,33 @@
           <left>0</left>
           <top>0</top>
           <width>920</width>
-          <height>112</height>
+          <height>136</height>
           <font>font45_title</font>
           <textcolor>FFFFFFFF</textcolor>
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[ListItem.Label]</label>
           <wrapmultiline>true</wrapmultiline>
-          <visible>String.IsEqual(Window.Property(lyrics),synced)</visible>
+          <visible>String.IsEqual(Window.Property(lyrics),synced) + String.IsEmpty(ListItem.Property(long))</visible>
         </control>
         <control type="label">
           <left>0</left>
           <top>0</top>
           <width>920</width>
-          <height>112</height>
+          <height>136</height>
+          <font>font32_title</font>
+          <textcolor>FFFFFFFF</textcolor>
+          <align>left</align>
+          <aligny>center</aligny>
+          <label>$INFO[ListItem.Label]</label>
+          <wrapmultiline>true</wrapmultiline>
+          <visible>String.IsEqual(Window.Property(lyrics),synced) + !String.IsEmpty(ListItem.Property(long))</visible>
+        </control>
+        <control type="label">
+          <left>0</left>
+          <top>0</top>
+          <width>920</width>
+          <height>136</height>
           <font>font32</font>
           <textcolor>B3FFFFFF</textcolor>
           <align>left</align>

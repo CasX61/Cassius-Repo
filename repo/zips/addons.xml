@@ -19,7 +19,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.auradeck" name="Aura-Deck" version="1.0.0" provider-name="CasX61">
+</addon><addon id="script.auradeck" name="Aura-Deck" version="1.0.1" provider-name="CasX61">
     <requires>
         
         <import addon="xbmc.python" version="3.0.1" />
@@ -46,7 +46,16 @@
         <license>GPL-3.0-or-later</license>
         <website>https://github.com/CasX61/Aura-Deck--Navidrome-Client-for-Kodi</website>
         <source>https://github.com/CasX61/Aura-Deck--Navidrome-Client-for-Kodi</source>
-        <news>1.0.0: First release.</news>
+        <news>
+1.0.1
+===========
+
+- Lyrics fix
+
+1.0.0: First release.
+        
+    
+</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>

@@ -425,11 +425,13 @@ class Client:
                     .get('lyricsList', {}).get('structuredLyrics', [])
             except ApiError:
                 entries = []
-            entries.sort(key=lambda e: not e.get('synced'))
+            # Main lyrics before translations/pronunciations, synced before plain
+            entries.sort(key=lambda e: ((e.get('kind') or 'main') != 'main', not e.get('synced')))
             for entry in entries:
+                # A positive offset means the lyrics appear sooner
                 offset = int(entry.get('offset') or 0)
                 lines = [
-                    ((int(line['start']) + offset) if entry.get('synced') and 'start' in line else None,
+                    ((int(line['start']) - offset) if entry.get('synced') and 'start' in line else None,
                      line.get('value', ''))
                     for line in entry.get('line', [])
                 ]

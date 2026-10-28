@@ -18,6 +18,7 @@ from resources.lib.ui import ids
 L = kodi.L
 
 LYRICS_LEAD_MS = 250   # highlight a line a touch early, it reads more naturally
+LYRICS_LONG_LINE = 60  # characters; longer current lines use a smaller font to fit the row
 STOPPED_GRACE = 8      # ticks (x 0.25 s) without audio before the dialog closes
 
 
@@ -31,7 +32,9 @@ class NowPlaying(xbmcgui.WindowXMLDialog):
         self.song_id = None
         self.song = None
         self.lyrics = None
-        self.lyric_index = -1
+        # Guards the lyrics list: the loop resets it on a track change while
+        # load_song may be filling it for the previous track
+        self.lyrics_lock = threading.Lock()
         self.queue_size = -1
         self.queue_pos = -2
         self.panel_chosen = False
@@ -71,11 +74,11 @@ class NowPlaying(xbmcgui.WindowXMLDialog):
         song_id = player.current_song_id()
         if song_id == self.song_id:
             return
-        self.song_id = song_id
+        with self.lyrics_lock:
+            self.song_id = song_id
+            self.lyrics = None
+            self.getControl(ids.NP_LYRICS).reset()
         self.song = None
-        self.lyrics = None
-        self.lyric_index = -1
-        self.getControl(ids.NP_LYRICS).reset()
         self.setProperty('starred', '')
         self.setProperty('lyrics', 'loading' if song_id and self.client else 'none')
         if song_id and self.client:
@@ -95,13 +98,11 @@ class NowPlaying(xbmcgui.WindowXMLDialog):
         lyrics = self.client.lyrics(song)
         if song_id != self.song_id or self.closing:
             return
-        self.lyrics = lyrics
         if not lyrics:
             self.setProperty('lyrics', 'none')
             if not self.panel_chosen:
                 self.setProperty('panel', 'queue')
             return
-        self.setProperty('lyrics', 'synced' if lyrics['synced'] else 'plain')
         if lyrics['synced']:
             # Blank synced lines only mark pauses; the previous line stays lit.
             lyrics['lines'] = [(start, text) for start, text in lyrics['lines'] if text.strip()]
@@ -109,10 +110,17 @@ class NowPlaying(xbmcgui.WindowXMLDialog):
         for start, text in lyrics['lines']:
             item = xbmcgui.ListItem(text.strip() or ' ', offscreen=True)
             item.setProperty('start', '' if start is None else str(start))
+            item.setProperty('long', '1' if len(text.strip()) > LYRICS_LONG_LINE else '')
             entries.append(item)
-        control = self.getControl(ids.NP_LYRICS)
-        control.reset()
-        control.addItems(entries)
+        # sync_lyrics only sees the lyrics once the list holds exactly these lines
+        with self.lyrics_lock:
+            if song_id != self.song_id or self.closing:
+                return
+            control = self.getControl(ids.NP_LYRICS)
+            control.reset()
+            control.addItems(entries)
+            self.lyrics = lyrics
+        self.setProperty('lyrics', 'synced' if lyrics['synced'] else 'plain')
         if not self.panel_chosen:
             self.setProperty('panel', 'lyrics')
 
@@ -127,9 +135,10 @@ class NowPlaying(xbmcgui.WindowXMLDialog):
                 index = position
             elif start is not None:
                 break
-        if index != self.lyric_index:
-            self.lyric_index = index
-            self.getControl(ids.NP_LYRICS).selectItem(index)
+        # Compare with the list itself: browsing it moves the selection away
+        control = self.getControl(ids.NP_LYRICS)
+        if index != control.getSelectedPosition():
+            control.selectItem(index)
 
     # Queue
     def sync_queue(self):

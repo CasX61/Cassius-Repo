@@ -1,3 +1,8 @@
+1.0.1
+===========
+
+- Lyrics fix
+
 v1.0.0
 - First release: full screen Navidrome client with home shelves, artist pages,
   albums, playlists, favourites, genres, radio, search with history, synced
