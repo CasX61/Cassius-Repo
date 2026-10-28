@@ -46,7 +46,8 @@ def profile_dir():
 
 
 def media_path(name):
-    return f'{addon_path()}/resources/skins/Default/media/{name}'
+    # Full path into our own subfolder: a bare name could resolve to the skin's texture
+    return f'{addon_path()}/resources/skins/Default/media/auradeck/{name}'
 
 
 def L(key):

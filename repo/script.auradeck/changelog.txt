@@ -1,3 +1,9 @@
+1.0.3
+===========
+
+- Other skins: fonts are matched to the active skin, so sizes stay right
+- Other skins: graphics like the logo are no longer replaced by the skin's own
+
 1.0.2
 ===========
 

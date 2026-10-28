@@ -11,7 +11,7 @@
       <top>0</top>
       <width>1920</width>
       <height>1080</height>
-      <texture>aura_bg.jpg</texture>
+      <texture>auradeck/aura_bg.jpg</texture>
     </control>
     <control type="image">
       <left>0</left>
@@ -39,7 +39,7 @@
       <top>0</top>
       <width>1920</width>
       <height>1080</height>
-      <texture>grad_h.png</texture>
+      <texture>auradeck/grad_h.png</texture>
       <colordiffuse>B30B0C14</colordiffuse>
     </control>
     <control type="image">
@@ -47,7 +47,7 @@
       <top>380</top>
       <width>1920</width>
       <height>700</height>
-      <texture>grad_v.png</texture>
+      <texture>auradeck/grad_v.png</texture>
       <colordiffuse>E60B0C14</colordiffuse>
     </control>
     <control type="image">
@@ -55,7 +55,7 @@
       <top>0</top>
       <width>840</width>
       <height>840</height>
-      <texture>glow.png</texture>
+      <texture>auradeck/glow.png</texture>
       <colordiffuse>A68B5CF6</colordiffuse>
       <aspectratio>keep</aspectratio>
       <animation effect="fade" start="100" end="60" time="2400" pulse="true" condition="!Player.Paused">Conditional</animation>
@@ -65,14 +65,14 @@
       <top>70</top>
       <width>680</width>
       <height>690</height>
-      <texture border="40">shadow.png</texture>
+      <texture border="40">auradeck/shadow.png</texture>
     </control>
     <control type="image">
       <left>140</left>
       <top>90</top>
       <width>620</width>
       <height>620</height>
-      <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[Player.Art(thumb)]</texture>
+      <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[Player.Art(thumb)]</texture>
       <aspectratio>scale</aspectratio>
       <fadetime>300</fadetime>
       <animation effect="zoom" end="96" center="auto" time="400" tween="cubic" easing="out" condition="Player.Paused">Conditional</animation>
@@ -118,8 +118,8 @@
       <top>895</top>
       <width>620</width>
       <height>6</height>
-      <texturebg colordiffuse="26FFFFFF">bar_bg.png</texturebg>
-      <midtexture>bar_fill.png</midtexture>
+      <texturebg colordiffuse="26FFFFFF">auradeck/bar_bg.png</texturebg>
+      <midtexture>auradeck/bar_fill.png</midtexture>
       <info>Player.Progress</info>
     </control>
     <control type="slider" id="6020">
@@ -127,9 +127,9 @@
       <top>884</top>
       <width>648</width>
       <height>28</height>
-      <texturesliderbar>slider_bar.png</texturesliderbar>
-      <textureslidernib colordiffuse="00FFFFFF">slider_nib.png</textureslidernib>
-      <textureslidernibfocus colordiffuse="FFFFFFFF">slider_nib.png</textureslidernibfocus>
+      <texturesliderbar>auradeck/slider_bar.png</texturesliderbar>
+      <textureslidernib colordiffuse="00FFFFFF">auradeck/slider_nib.png</textureslidernib>
+      <textureslidernibfocus colordiffuse="FFFFFFFF">auradeck/slider_nib.png</textureslidernibfocus>
       <info>Player.Progress</info>
       <action>seek</action>
       <orientation>horizontal</orientation>
@@ -164,7 +164,7 @@
       <top>960</top>
       <width>72</width>
       <height>72</height>
-      <texture>circle.png</texture>
+      <texture>auradeck/circle.png</texture>
       <colordiffuse>40FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Control.HasFocus(6011)</visible>
@@ -186,7 +186,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_shuffle.png</texture>
+      <texture>auradeck/icon_shuffle.png</texture>
       <colordiffuse>B3FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>!Playlist.IsRandom</visible>
@@ -196,7 +196,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_shuffle.png</texture>
+      <texture>auradeck/icon_shuffle.png</texture>
       <colordiffuse>FF22D3EE</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Playlist.IsRandom</visible>
@@ -206,7 +206,7 @@
       <top>960</top>
       <width>72</width>
       <height>72</height>
-      <texture>circle.png</texture>
+      <texture>auradeck/circle.png</texture>
       <colordiffuse>40FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Control.HasFocus(6012)</visible>
@@ -229,7 +229,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_prev.png</texture>
+      <texture>auradeck/icon_prev.png</texture>
       <colordiffuse>FFFFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
     </control>
@@ -238,7 +238,7 @@
       <top>954</top>
       <width>84</width>
       <height>84</height>
-      <texture>btn_accent.png</texture>
+      <texture>auradeck/btn_accent.png</texture>
       <aspectratio>keep</aspectratio>
     </control>
     <control type="button" id="6013">
@@ -259,7 +259,7 @@
       <top>954</top>
       <width>84</width>
       <height>84</height>
-      <texture>ring_focus.png</texture>
+      <texture>auradeck/ring_focus.png</texture>
       <colordiffuse>FFFFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Control.HasFocus(6013)</visible>
@@ -269,7 +269,7 @@
       <top>974</top>
       <width>44</width>
       <height>44</height>
-      <texture>icon_pause.png</texture>
+      <texture>auradeck/icon_pause.png</texture>
       <colordiffuse>FFFFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>!Player.Paused</visible>
@@ -279,7 +279,7 @@
       <top>974</top>
       <width>44</width>
       <height>44</height>
-      <texture>icon_play.png</texture>
+      <texture>auradeck/icon_play.png</texture>
       <colordiffuse>FFFFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Player.Paused</visible>
@@ -289,7 +289,7 @@
       <top>960</top>
       <width>72</width>
       <height>72</height>
-      <texture>circle.png</texture>
+      <texture>auradeck/circle.png</texture>
       <colordiffuse>40FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Control.HasFocus(6014)</visible>
@@ -312,7 +312,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_next.png</texture>
+      <texture>auradeck/icon_next.png</texture>
       <colordiffuse>FFFFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
     </control>
@@ -321,7 +321,7 @@
       <top>960</top>
       <width>72</width>
       <height>72</height>
-      <texture>circle.png</texture>
+      <texture>auradeck/circle.png</texture>
       <colordiffuse>40FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Control.HasFocus(6015)</visible>
@@ -344,7 +344,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_repeat.png</texture>
+      <texture>auradeck/icon_repeat.png</texture>
       <colordiffuse>B3FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
@@ -354,7 +354,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_repeat.png</texture>
+      <texture>auradeck/icon_repeat.png</texture>
       <colordiffuse>FF22D3EE</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Playlist.IsRepeat</visible>
@@ -364,7 +364,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_repeat_one.png</texture>
+      <texture>auradeck/icon_repeat_one.png</texture>
       <colordiffuse>FF22D3EE</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Playlist.IsRepeatOne</visible>
@@ -374,7 +374,7 @@
       <top>960</top>
       <width>72</width>
       <height>72</height>
-      <texture>circle.png</texture>
+      <texture>auradeck/circle.png</texture>
       <colordiffuse>40FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Control.HasFocus(6016)</visible>
@@ -396,7 +396,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_favourite_outline.png</texture>
+      <texture>auradeck/icon_favourite_outline.png</texture>
       <colordiffuse>B3FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>String.IsEmpty(Window.Property(starred))</visible>
@@ -406,7 +406,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_favourite.png</texture>
+      <texture>auradeck/icon_favourite.png</texture>
       <colordiffuse>FF8B5CF6</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>!String.IsEmpty(Window.Property(starred))</visible>
@@ -416,7 +416,7 @@
       <top>960</top>
       <width>72</width>
       <height>72</height>
-      <texture>circle.png</texture>
+      <texture>auradeck/circle.png</texture>
       <colordiffuse>40FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>Control.HasFocus(6017)</visible>
@@ -439,7 +439,7 @@
       <top>977</top>
       <width>38</width>
       <height>38</height>
-      <texture>icon_more.png</texture>
+      <texture>auradeck/icon_more.png</texture>
       <colordiffuse>B3FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
     </control>
@@ -459,7 +459,7 @@
       <top>96</top>
       <width>260</width>
       <height>64</height>
-      <texturefocus border="32,0,32,0" colordiffuse="FFFFFFFF">pill.png</texturefocus>
+      <texturefocus border="32,0,32,0" colordiffuse="FFFFFFFF">auradeck/pill.png</texturefocus>
       <texturenofocus/>
       <label>$ADDON[script.auradeck 32140]</label>
       <font>font14</font>
@@ -489,7 +489,7 @@
       <top>162</top>
       <width>60</width>
       <height>4</height>
-      <texture>white.png</texture>
+      <texture>auradeck/white.png</texture>
       <colordiffuse>FF22D3EE</colordiffuse>
       <visible>String.IsEqual(Window.Property(panel),lyrics)</visible>
     </control>
@@ -498,7 +498,7 @@
       <top>96</top>
       <width>260</width>
       <height>64</height>
-      <texturefocus border="32,0,32,0" colordiffuse="FFFFFFFF">pill.png</texturefocus>
+      <texturefocus border="32,0,32,0" colordiffuse="FFFFFFFF">auradeck/pill.png</texturefocus>
       <texturenofocus/>
       <label>$ADDON[script.auradeck 32141]</label>
       <font>font14</font>
@@ -527,7 +527,7 @@
       <top>162</top>
       <width>60</width>
       <height>4</height>
-      <texture>white.png</texture>
+      <texture>auradeck/white.png</texture>
       <colordiffuse>FF22D3EE</colordiffuse>
       <visible>String.IsEqual(Window.Property(panel),queue)</visible>
     </control>
@@ -588,7 +588,7 @@
           <top>4</top>
           <width>940</width>
           <height>128</height>
-          <texture border="12">round_12.png</texture>
+          <texture border="12">auradeck/round_12.png</texture>
           <colordiffuse>2EFFFFFF</colordiffuse>
           <visible>Control.HasFocus(6100)</visible>
         </control>
@@ -647,7 +647,7 @@
       <top>360</top>
       <width>56</width>
       <height>56</height>
-      <texture>icon_lyrics.png</texture>
+      <texture>auradeck/icon_lyrics.png</texture>
       <colordiffuse>73FFFFFF</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>String.IsEqual(Window.Property(panel),lyrics) + String.IsEqual(Window.Property(lyrics),none)</visible>
@@ -681,7 +681,7 @@
           <top>10</top>
           <width>60</width>
           <height>60</height>
-          <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+          <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
           <aspectratio>scale</aspectratio>
         </control>
         <control type="image">
@@ -689,7 +689,7 @@
           <top>10</top>
           <width>60</width>
           <height>60</height>
-          <texture diffuse="mask_round.png">white.png</texture>
+          <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
           <colordiffuse>B30B0C14</colordiffuse>
           <visible>String.IsEqual(ListItem.Property(current),1)</visible>
         </control>
@@ -698,7 +698,7 @@
           <top>22</top>
           <width>36</width>
           <height>36</height>
-          <texture>icon_equalizer.png</texture>
+          <texture>auradeck/icon_equalizer.png</texture>
           <colordiffuse>FF22D3EE</colordiffuse>
           <aspectratio>keep</aspectratio>
           <visible>String.IsEqual(ListItem.Property(current),1)</visible>
@@ -756,7 +756,7 @@
           <top>4</top>
           <width>920</width>
           <height>72</height>
-          <texture border="12">round_12.png</texture>
+          <texture border="12">auradeck/round_12.png</texture>
           <colordiffuse>2EFFFFFF</colordiffuse>
           <visible>Control.HasFocus(6200)</visible>
         </control>
@@ -765,7 +765,7 @@
           <top>10</top>
           <width>60</width>
           <height>60</height>
-          <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+          <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
           <aspectratio>scale</aspectratio>
         </control>
         <control type="image">
@@ -773,7 +773,7 @@
           <top>10</top>
           <width>60</width>
           <height>60</height>
-          <texture diffuse="mask_round.png">white.png</texture>
+          <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
           <colordiffuse>B30B0C14</colordiffuse>
           <visible>String.IsEqual(ListItem.Property(current),1)</visible>
         </control>
@@ -782,7 +782,7 @@
           <top>22</top>
           <width>36</width>
           <height>36</height>
-          <texture>icon_equalizer.png</texture>
+          <texture>auradeck/icon_equalizer.png</texture>
           <colordiffuse>FF22D3EE</colordiffuse>
           <aspectratio>keep</aspectratio>
           <visible>String.IsEqual(ListItem.Property(current),1)</visible>

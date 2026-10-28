@@ -17,7 +17,7 @@ import xbmc
 import xbmcgui
 
 from resources.lib import actions, connection, items, kodi, offline, player, subsonic
-from resources.lib.ui import ids, pages
+from resources.lib.ui import ids, pages, skin
 from resources.lib.ui.nowplaying import NowPlaying
 
 L = kodi.L
@@ -706,7 +706,7 @@ class MainWindow(xbmcgui.WindowXML):
         if not xbmc.Player().isPlayingAudio():
             kodi.notify(L('np_nothing'))
             return
-        dialog = NowPlaying(NowPlaying.XML, kodi.addon_path(), 'Default', '1080i')
+        dialog = NowPlaying(NowPlaying.XML, skin.window_path(), 'Default', '1080i')
         dialog.setup(self.client)
         dialog.doModal()
         intent = dialog.intent

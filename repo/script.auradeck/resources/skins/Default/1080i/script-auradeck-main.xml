@@ -9,7 +9,7 @@
       <top>0</top>
       <width>1920</width>
       <height>1080</height>
-      <texture>aura_bg.jpg</texture>
+      <texture>auradeck/aura_bg.jpg</texture>
     </control>
     <control type="image">
       <left>0</left>
@@ -27,7 +27,7 @@
       <top>0</top>
       <width>1920</width>
       <height>1080</height>
-      <texture>grad_v.png</texture>
+      <texture>auradeck/grad_v.png</texture>
       <colordiffuse>E60B0C14</colordiffuse>
       <visible>String.IsEqual(Window.Property(view),detail)</visible>
     </control>
@@ -50,7 +50,7 @@
         <top>0</top>
         <width>520</width>
         <height>760</height>
-        <texture>grad_h.png</texture>
+        <texture>auradeck/grad_h.png</texture>
         <colordiffuse>FF0B0C14</colordiffuse>
       </control>
       <control type="image">
@@ -58,7 +58,7 @@
         <top>300</top>
         <width>1180</width>
         <height>460</height>
-        <texture>grad_v.png</texture>
+        <texture>auradeck/grad_v.png</texture>
         <colordiffuse>FF0B0C14</colordiffuse>
       </control>
     </control>
@@ -67,7 +67,7 @@
       <top>0</top>
       <width>1920</width>
       <height>1080</height>
-      <texture>white.png</texture>
+      <texture>auradeck/white.png</texture>
       <colordiffuse>A60B0C14</colordiffuse>
       <visible>String.IsEqual(Window.Property(view),rows) + String.IsEqual(Window.Property(hero),artist) + ControlGroup(1000).HasFocus(0)</visible>
       <animation effect="fade" time="300">VisibleChange</animation>
@@ -129,7 +129,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">btn_primary.png</texture>
+                  <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
                   <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
                 </control>
                 <control type="image">
@@ -137,7 +137,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>1FFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + !false</visible>
                 </control>
@@ -146,7 +146,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + false</visible>
                 </control>
@@ -155,7 +155,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">pill_ring.png</texture>
+                  <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(style),primary) + false</visible>
                 </control>
@@ -217,7 +217,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">btn_primary.png</texture>
+                  <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
                   <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
                 </control>
                 <control type="image">
@@ -225,7 +225,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>1FFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + !Control.HasFocus(1110)</visible>
                 </control>
@@ -234,7 +234,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(1110)</visible>
                 </control>
@@ -243,7 +243,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">pill_ring.png</texture>
+                  <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(1110)</visible>
                 </control>
@@ -367,7 +367,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">btn_primary.png</texture>
+                  <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
                   <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
                 </control>
                 <control type="image">
@@ -375,7 +375,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>1FFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + !false</visible>
                 </control>
@@ -384,7 +384,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + false</visible>
                 </control>
@@ -393,7 +393,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">pill_ring.png</texture>
+                  <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(style),primary) + false</visible>
                 </control>
@@ -455,7 +455,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">btn_primary.png</texture>
+                  <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
                   <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
                 </control>
                 <control type="image">
@@ -463,7 +463,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>1FFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + !Control.HasFocus(1210)</visible>
                 </control>
@@ -472,7 +472,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="40,0,40,0">pill.png</texture>
+                  <texture border="40,0,40,0">auradeck/pill.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>!String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(1210)</visible>
                 </control>
@@ -481,7 +481,7 @@
                   <top>4</top>
                   <width>320</width>
                   <height>76</height>
-                  <texture border="38,0,38,0">pill_ring.png</texture>
+                  <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(1210)</visible>
                 </control>
@@ -557,8 +557,8 @@
             <top>170</top>
             <width>1100</width>
             <height>92</height>
-            <texturefocus border="20" colordiffuse="FFFFFFFF">round_20.png</texturefocus>
-            <texturenofocus border="20" colordiffuse="FF1C2033">round_20.png</texturenofocus>
+            <texturefocus border="20" colordiffuse="FFFFFFFF">auradeck/round_20.png</texturefocus>
+            <texturenofocus border="20" colordiffuse="FF1C2033">auradeck/round_20.png</texturenofocus>
             <label>$INFO[Window.Property(search.query)]</label>
             <font>font14</font>
             <textcolor>B3FFFFFF</textcolor>
@@ -573,7 +573,7 @@
             <top>196</top>
             <width>40</width>
             <height>40</height>
-            <texture>icon_search.png</texture>
+            <texture>auradeck/icon_search.png</texture>
             <colordiffuse>B3FFFFFF</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>!Control.HasFocus(1301)</visible>
@@ -583,7 +583,7 @@
             <top>196</top>
             <width>40</width>
             <height>40</height>
-            <texture>icon_search.png</texture>
+            <texture>auradeck/icon_search.png</texture>
             <colordiffuse>FF0B0C14</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>Control.HasFocus(1301)</visible>
@@ -604,7 +604,7 @@
                 <top>4</top>
                 <width>270</width>
                 <height>60</height>
-                <texture border="32,0,32,0">pill.png</texture>
+                <texture border="32,0,32,0">auradeck/pill.png</texture>
                 <colordiffuse>1FFFFFFF</colordiffuse>
               </control>
               <control type="image">
@@ -612,7 +612,7 @@
                 <top>20</top>
                 <width>30</width>
                 <height>30</height>
-                <texture>icon_history.png</texture>
+                <texture>auradeck/icon_history.png</texture>
                 <colordiffuse>73FFFFFF</colordiffuse>
                 <aspectratio>keep</aspectratio>
               </control>
@@ -634,7 +634,7 @@
                 <top>4</top>
                 <width>270</width>
                 <height>60</height>
-                <texture border="32,0,32,0">pill.png</texture>
+                <texture border="32,0,32,0">auradeck/pill.png</texture>
                 <colordiffuse>1FFFFFFF</colordiffuse>
                 <visible>!Control.HasFocus(1310)</visible>
               </control>
@@ -643,7 +643,7 @@
                 <top>4</top>
                 <width>270</width>
                 <height>60</height>
-                <texture border="32,0,32,0">pill.png</texture>
+                <texture border="32,0,32,0">auradeck/pill.png</texture>
                 <colordiffuse>FFFFFFFF</colordiffuse>
                 <visible>Control.HasFocus(1310)</visible>
               </control>
@@ -652,7 +652,7 @@
                 <top>20</top>
                 <width>30</width>
                 <height>30</height>
-                <texture>icon_history.png</texture>
+                <texture>auradeck/icon_history.png</texture>
                 <colordiffuse>73FFFFFF</colordiffuse>
                 <aspectratio>keep</aspectratio>
               </control>
@@ -726,7 +726,7 @@
                 <top>10</top>
                 <width>60</width>
                 <height>60</height>
-                <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                 <aspectratio>scale</aspectratio>
                 <visible>[String.IsEqual(ListItem.Property(kind),song)|String.IsEqual(ListItem.Property(kind),radio)] + String.IsEqual(ListItem.Property(cover),1)</visible>
               </control>
@@ -735,7 +735,7 @@
                 <top>10</top>
                 <width>60</width>
                 <height>60</height>
-                <texture diffuse="mask_round.png">white.png</texture>
+                <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
                 <colordiffuse>B30B0C14</colordiffuse>
                 <visible>String.IsEqual(ListItem.Property(cover),1) + String.IsEqual(ListItem.Property(playing),1)</visible>
               </control>
@@ -756,7 +756,7 @@
                 <top>22</top>
                 <width>36</width>
                 <height>36</height>
-                <texture>icon_equalizer.png</texture>
+                <texture>auradeck/icon_equalizer.png</texture>
                 <colordiffuse>FF22D3EE</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(playing),1)</visible>
@@ -803,7 +803,7 @@
                 <top>26</top>
                 <width>28</width>
                 <height>28</height>
-                <texture>icon_favourite.png</texture>
+                <texture>auradeck/icon_favourite.png</texture>
                 <colordiffuse>FF8B5CF6</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(starred),1)</visible>
@@ -813,7 +813,7 @@
                 <top>26</top>
                 <width>28</width>
                 <height>28</height>
-                <texture>icon_downloaded.png</texture>
+                <texture>auradeck/icon_downloaded.png</texture>
                 <colordiffuse>B3FFFFFF</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(offline),1)</visible>
@@ -847,7 +847,7 @@
                 <top>24</top>
                 <width>32</width>
                 <height>32</height>
-                <texture>icon_arrow.png</texture>
+                <texture>auradeck/icon_arrow.png</texture>
                 <colordiffuse>FF22D3EE</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -871,7 +871,7 @@
                 <top>4</top>
                 <width>1670</width>
                 <height>72</height>
-                <texture border="12">round_12.png</texture>
+                <texture border="12">auradeck/round_12.png</texture>
                 <colordiffuse>2EFFFFFF</colordiffuse>
                 <visible>Control.HasFocus(1401)</visible>
               </control>
@@ -880,7 +880,7 @@
                 <top>10</top>
                 <width>60</width>
                 <height>60</height>
-                <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                 <aspectratio>scale</aspectratio>
                 <visible>[String.IsEqual(ListItem.Property(kind),song)|String.IsEqual(ListItem.Property(kind),radio)] + String.IsEqual(ListItem.Property(cover),1)</visible>
               </control>
@@ -889,7 +889,7 @@
                 <top>10</top>
                 <width>60</width>
                 <height>60</height>
-                <texture diffuse="mask_round.png">white.png</texture>
+                <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
                 <colordiffuse>B30B0C14</colordiffuse>
                 <visible>String.IsEqual(ListItem.Property(cover),1) + String.IsEqual(ListItem.Property(playing),1)</visible>
               </control>
@@ -910,7 +910,7 @@
                 <top>22</top>
                 <width>36</width>
                 <height>36</height>
-                <texture>icon_equalizer.png</texture>
+                <texture>auradeck/icon_equalizer.png</texture>
                 <colordiffuse>FF22D3EE</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(playing),1)</visible>
@@ -959,7 +959,7 @@
                 <top>26</top>
                 <width>28</width>
                 <height>28</height>
-                <texture>icon_favourite.png</texture>
+                <texture>auradeck/icon_favourite.png</texture>
                 <colordiffuse>FF8B5CF6</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(starred),1)</visible>
@@ -969,7 +969,7 @@
                 <top>26</top>
                 <width>28</width>
                 <height>28</height>
-                <texture>icon_downloaded.png</texture>
+                <texture>auradeck/icon_downloaded.png</texture>
                 <colordiffuse>B3FFFFFF</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(offline),1)</visible>
@@ -1003,7 +1003,7 @@
                 <top>24</top>
                 <width>32</width>
                 <height>32</height>
-                <texture>icon_arrow.png</texture>
+                <texture>auradeck/icon_arrow.png</texture>
                 <colordiffuse>FF22D3EE</colordiffuse>
                 <aspectratio>keep</aspectratio>
                 <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -1051,7 +1051,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1060,7 +1060,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1069,7 +1069,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1078,7 +1078,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1099,7 +1099,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1108,7 +1108,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -1187,7 +1187,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1511)</visible>
@@ -1197,7 +1197,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1206,7 +1206,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1215,7 +1215,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1224,7 +1224,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1245,7 +1245,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1254,7 +1254,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -1276,7 +1276,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1511) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1285,7 +1285,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1511) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -1372,7 +1372,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1381,7 +1381,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1390,7 +1390,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1399,7 +1399,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1420,7 +1420,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1429,7 +1429,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -1508,7 +1508,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1521)</visible>
@@ -1518,7 +1518,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1527,7 +1527,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1536,7 +1536,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1545,7 +1545,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1566,7 +1566,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1575,7 +1575,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -1597,7 +1597,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1521) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1606,7 +1606,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1521) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -1693,7 +1693,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1702,7 +1702,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1711,7 +1711,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1720,7 +1720,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1741,7 +1741,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1750,7 +1750,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -1829,7 +1829,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1531)</visible>
@@ -1839,7 +1839,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1848,7 +1848,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1857,7 +1857,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1866,7 +1866,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -1887,7 +1887,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -1896,7 +1896,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -1918,7 +1918,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1531) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -1927,7 +1927,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1531) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -2014,7 +2014,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2023,7 +2023,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2032,7 +2032,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2041,7 +2041,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2062,7 +2062,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2071,7 +2071,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -2150,7 +2150,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1541)</visible>
@@ -2160,7 +2160,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2169,7 +2169,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2178,7 +2178,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2187,7 +2187,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2208,7 +2208,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2217,7 +2217,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -2239,7 +2239,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1541) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2248,7 +2248,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1541) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -2335,7 +2335,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2344,7 +2344,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2353,7 +2353,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2362,7 +2362,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2383,7 +2383,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2392,7 +2392,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -2471,7 +2471,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1551)</visible>
@@ -2481,7 +2481,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2490,7 +2490,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2499,7 +2499,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2508,7 +2508,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2529,7 +2529,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2538,7 +2538,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -2560,7 +2560,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1551) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2569,7 +2569,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1551) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -2656,7 +2656,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2665,7 +2665,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2674,7 +2674,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2683,7 +2683,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2704,7 +2704,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2713,7 +2713,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -2792,7 +2792,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1561)</visible>
@@ -2802,7 +2802,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2811,7 +2811,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2820,7 +2820,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2829,7 +2829,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -2850,7 +2850,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2859,7 +2859,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -2881,7 +2881,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1561) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2890,7 +2890,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1561) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -2977,7 +2977,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -2986,7 +2986,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -2995,7 +2995,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3004,7 +3004,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3025,7 +3025,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -3034,7 +3034,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -3113,7 +3113,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1571)</visible>
@@ -3123,7 +3123,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -3132,7 +3132,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -3141,7 +3141,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3150,7 +3150,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3171,7 +3171,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -3180,7 +3180,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -3202,7 +3202,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1571) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -3211,7 +3211,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1571) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -3298,7 +3298,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -3307,7 +3307,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -3316,7 +3316,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3325,7 +3325,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3346,7 +3346,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -3355,7 +3355,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -3434,7 +3434,7 @@
                   <top>-40</top>
                   <width>350</width>
                   <height>350</height>
-                  <texture>glow.png</texture>
+                  <texture>auradeck/glow.png</texture>
                   <colordiffuse>998B5CF6</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1581)</visible>
@@ -3444,7 +3444,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>scale</aspectratio>
                   <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -3453,7 +3453,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+                  <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -3462,7 +3462,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+                  <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
                   <colordiffuse>A6FFFFFF</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3471,7 +3471,7 @@
                   <top>125</top>
                   <width>250</width>
                   <height>125</height>
-                  <texture>grad_v.png</texture>
+                  <texture>auradeck/grad_v.png</texture>
                   <colordiffuse>B3000000</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
                 </control>
@@ -3492,7 +3492,7 @@
                   <top>0</top>
                   <width>250</width>
                   <height>250</height>
-                  <texture>mask_round.png</texture>
+                  <texture>auradeck/mask_round.png</texture>
                   <colordiffuse>FF1C2033</colordiffuse>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
                 </control>
@@ -3501,7 +3501,7 @@
                   <top>69</top>
                   <width>72</width>
                   <height>72</height>
-                  <texture>icon_arrow.png</texture>
+                  <texture>auradeck/icon_arrow.png</texture>
                   <colordiffuse>FF22D3EE</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -3523,7 +3523,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture border="20">frame_round.png</texture>
+                  <texture border="20">auradeck/frame_round.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <visible>Control.HasFocus(1581) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
                 </control>
@@ -3532,7 +3532,7 @@
                   <top>-6</top>
                   <width>262</width>
                   <height>262</height>
-                  <texture>ring.png</texture>
+                  <texture>auradeck/ring.png</texture>
                   <colordiffuse>FFFFFFFF</colordiffuse>
                   <aspectratio>keep</aspectratio>
                   <visible>Control.HasFocus(1581) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -3639,7 +3639,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">btn_primary.png</texture>
+              <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
               <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
             </control>
             <control type="image">
@@ -3647,7 +3647,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>1FFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + !false</visible>
             </control>
@@ -3656,7 +3656,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + false</visible>
             </control>
@@ -3665,7 +3665,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">pill_ring.png</texture>
+              <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(style),primary) + false</visible>
             </control>
@@ -3727,7 +3727,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">btn_primary.png</texture>
+              <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
               <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
             </control>
             <control type="image">
@@ -3735,7 +3735,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>1FFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + !Control.HasFocus(2010)</visible>
             </control>
@@ -3744,7 +3744,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(2010)</visible>
             </control>
@@ -3753,7 +3753,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">pill_ring.png</texture>
+              <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(2010)</visible>
             </control>
@@ -3827,7 +3827,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+              <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
               <aspectratio>scale</aspectratio>
               <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
             </control>
@@ -3836,7 +3836,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+              <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
             </control>
@@ -3845,7 +3845,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+              <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
               <colordiffuse>A6FFFFFF</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
             </control>
@@ -3854,7 +3854,7 @@
               <top>117</top>
               <width>234</width>
               <height>117</height>
-              <texture>grad_v.png</texture>
+              <texture>auradeck/grad_v.png</texture>
               <colordiffuse>B3000000</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
             </control>
@@ -3875,7 +3875,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture>mask_round.png</texture>
+              <texture>auradeck/mask_round.png</texture>
               <colordiffuse>FF1C2033</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
             </control>
@@ -3884,7 +3884,7 @@
               <top>61</top>
               <width>72</width>
               <height>72</height>
-              <texture>icon_arrow.png</texture>
+              <texture>auradeck/icon_arrow.png</texture>
               <colordiffuse>FF22D3EE</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -3963,7 +3963,7 @@
               <top>-40</top>
               <width>334</width>
               <height>334</height>
-              <texture>glow.png</texture>
+              <texture>auradeck/glow.png</texture>
               <colordiffuse>998B5CF6</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>Control.HasFocus(2000)</visible>
@@ -3973,7 +3973,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+              <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
               <aspectratio>scale</aspectratio>
               <visible>!String.IsEqual(ListItem.Property(kind),artist) + !String.IsEqual(ListItem.Property(kind),more)</visible>
             </control>
@@ -3982,7 +3982,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture diffuse="mask_circle.png" fallback="placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+              <texture diffuse="auradeck/mask_circle.png" fallback="auradeck/placeholder_artist.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(kind),artist)</visible>
             </control>
@@ -3991,7 +3991,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture diffuse="mask_round.png">$INFO[ListItem.Property(tile)]</texture>
+              <texture diffuse="auradeck/mask_round.png">$INFO[ListItem.Property(tile)]</texture>
               <colordiffuse>A6FFFFFF</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
             </control>
@@ -4000,7 +4000,7 @@
               <top>117</top>
               <width>234</width>
               <height>117</height>
-              <texture>grad_v.png</texture>
+              <texture>auradeck/grad_v.png</texture>
               <colordiffuse>B3000000</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(kind),genre)</visible>
             </control>
@@ -4021,7 +4021,7 @@
               <top>0</top>
               <width>234</width>
               <height>234</height>
-              <texture>mask_round.png</texture>
+              <texture>auradeck/mask_round.png</texture>
               <colordiffuse>FF1C2033</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
             </control>
@@ -4030,7 +4030,7 @@
               <top>61</top>
               <width>72</width>
               <height>72</height>
-              <texture>icon_arrow.png</texture>
+              <texture>auradeck/icon_arrow.png</texture>
               <colordiffuse>FF22D3EE</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -4052,7 +4052,7 @@
               <top>-6</top>
               <width>246</width>
               <height>246</height>
-              <texture border="20">frame_round.png</texture>
+              <texture border="20">auradeck/frame_round.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>Control.HasFocus(2000) + !String.IsEqual(ListItem.Property(kind),artist)</visible>
             </control>
@@ -4061,7 +4061,7 @@
               <top>-6</top>
               <width>246</width>
               <height>246</height>
-              <texture>ring.png</texture>
+              <texture>auradeck/ring.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>Control.HasFocus(2000) + String.IsEqual(ListItem.Property(kind),artist)</visible>
@@ -4166,7 +4166,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">btn_primary.png</texture>
+              <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
               <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
             </control>
             <control type="image">
@@ -4174,7 +4174,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>1FFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + !false</visible>
             </control>
@@ -4183,7 +4183,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + false</visible>
             </control>
@@ -4192,7 +4192,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">pill_ring.png</texture>
+              <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(style),primary) + false</visible>
             </control>
@@ -4254,7 +4254,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">btn_primary.png</texture>
+              <texture border="38,0,38,0">auradeck/btn_primary.png</texture>
               <visible>String.IsEqual(ListItem.Property(style),primary)</visible>
             </control>
             <control type="image">
@@ -4262,7 +4262,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>1FFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + !Control.HasFocus(3010)</visible>
             </control>
@@ -4271,7 +4271,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="40,0,40,0">pill.png</texture>
+              <texture border="40,0,40,0">auradeck/pill.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>!String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(3010)</visible>
             </control>
@@ -4280,7 +4280,7 @@
               <top>4</top>
               <width>320</width>
               <height>76</height>
-              <texture border="38,0,38,0">pill_ring.png</texture>
+              <texture border="38,0,38,0">auradeck/pill_ring.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <visible>String.IsEqual(ListItem.Property(style),primary) + Control.HasFocus(3010)</visible>
             </control>
@@ -4349,7 +4349,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+            <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
             <aspectratio>scale</aspectratio>
             <visible>[String.IsEqual(ListItem.Property(kind),song)|String.IsEqual(ListItem.Property(kind),radio)] + String.IsEqual(ListItem.Property(cover),1)</visible>
           </control>
@@ -4358,7 +4358,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png">white.png</texture>
+            <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
             <colordiffuse>B30B0C14</colordiffuse>
             <visible>String.IsEqual(ListItem.Property(cover),1) + String.IsEqual(ListItem.Property(playing),1)</visible>
           </control>
@@ -4379,7 +4379,7 @@
             <top>22</top>
             <width>36</width>
             <height>36</height>
-            <texture>icon_equalizer.png</texture>
+            <texture>auradeck/icon_equalizer.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(playing),1)</visible>
@@ -4438,7 +4438,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_favourite.png</texture>
+            <texture>auradeck/icon_favourite.png</texture>
             <colordiffuse>FF8B5CF6</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(starred),1)</visible>
@@ -4448,7 +4448,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_downloaded.png</texture>
+            <texture>auradeck/icon_downloaded.png</texture>
             <colordiffuse>B3FFFFFF</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(offline),1)</visible>
@@ -4482,7 +4482,7 @@
             <top>24</top>
             <width>32</width>
             <height>32</height>
-            <texture>icon_arrow.png</texture>
+            <texture>auradeck/icon_arrow.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -4506,7 +4506,7 @@
             <top>4</top>
             <width>1710</width>
             <height>72</height>
-            <texture border="12">round_12.png</texture>
+            <texture border="12">auradeck/round_12.png</texture>
             <colordiffuse>2EFFFFFF</colordiffuse>
             <visible>Control.HasFocus(3000)</visible>
           </control>
@@ -4515,7 +4515,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+            <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
             <aspectratio>scale</aspectratio>
             <visible>[String.IsEqual(ListItem.Property(kind),song)|String.IsEqual(ListItem.Property(kind),radio)] + String.IsEqual(ListItem.Property(cover),1)</visible>
           </control>
@@ -4524,7 +4524,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png">white.png</texture>
+            <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
             <colordiffuse>B30B0C14</colordiffuse>
             <visible>String.IsEqual(ListItem.Property(cover),1) + String.IsEqual(ListItem.Property(playing),1)</visible>
           </control>
@@ -4545,7 +4545,7 @@
             <top>22</top>
             <width>36</width>
             <height>36</height>
-            <texture>icon_equalizer.png</texture>
+            <texture>auradeck/icon_equalizer.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(playing),1)</visible>
@@ -4606,7 +4606,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_favourite.png</texture>
+            <texture>auradeck/icon_favourite.png</texture>
             <colordiffuse>FF8B5CF6</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(starred),1)</visible>
@@ -4616,7 +4616,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_downloaded.png</texture>
+            <texture>auradeck/icon_downloaded.png</texture>
             <colordiffuse>B3FFFFFF</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(offline),1)</visible>
@@ -4650,7 +4650,7 @@
             <top>24</top>
             <width>32</width>
             <height>32</height>
-            <texture>icon_arrow.png</texture>
+            <texture>auradeck/icon_arrow.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -4682,7 +4682,7 @@
           <top>-40</top>
           <width>640</width>
           <height>640</height>
-          <texture>glow.png</texture>
+          <texture>auradeck/glow.png</texture>
           <colordiffuse>808B5CF6</colordiffuse>
           <aspectratio>keep</aspectratio>
         </control>
@@ -4691,14 +4691,14 @@
           <top>-14</top>
           <width>508</width>
           <height>516</height>
-          <texture border="40">shadow.png</texture>
+          <texture border="40">auradeck/shadow.png</texture>
         </control>
         <control type="image">
           <left>0</left>
           <top>0</top>
           <width>460</width>
           <height>460</height>
-          <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[Window.Property(detail.cover)]</texture>
+          <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[Window.Property(detail.cover)]</texture>
           <aspectratio>scale</aspectratio>
           <fadetime>300</fadetime>
         </control>
@@ -4769,7 +4769,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>btn_accent.png</texture>
+              <texture>auradeck/btn_accent.png</texture>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(style),accent)</visible>
             </control>
@@ -4778,7 +4778,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>ring_focus.png</texture>
+              <texture>auradeck/ring_focus.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(style),accent) + false</visible>
@@ -4788,7 +4788,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>circle.png</texture>
+              <texture>auradeck/circle.png</texture>
               <colordiffuse>1FFFFFFF</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>!String.IsEqual(ListItem.Property(style),accent) + !false</visible>
@@ -4798,7 +4798,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>circle.png</texture>
+              <texture>auradeck/circle.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>!String.IsEqual(ListItem.Property(style),accent) + false</visible>
@@ -4836,7 +4836,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>btn_accent.png</texture>
+              <texture>auradeck/btn_accent.png</texture>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(style),accent)</visible>
             </control>
@@ -4845,7 +4845,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>ring_focus.png</texture>
+              <texture>auradeck/ring_focus.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>String.IsEqual(ListItem.Property(style),accent) + Control.HasFocus(4010)</visible>
@@ -4855,7 +4855,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>circle.png</texture>
+              <texture>auradeck/circle.png</texture>
               <colordiffuse>1FFFFFFF</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>!String.IsEqual(ListItem.Property(style),accent) + !Control.HasFocus(4010)</visible>
@@ -4865,7 +4865,7 @@
               <top>4</top>
               <width>76</width>
               <height>76</height>
-              <texture>circle.png</texture>
+              <texture>auradeck/circle.png</texture>
               <colordiffuse>FFFFFFFF</colordiffuse>
               <aspectratio>keep</aspectratio>
               <visible>!String.IsEqual(ListItem.Property(style),accent) + Control.HasFocus(4010)</visible>
@@ -4920,7 +4920,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+            <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
             <aspectratio>scale</aspectratio>
             <visible>[String.IsEqual(ListItem.Property(kind),song)|String.IsEqual(ListItem.Property(kind),radio)] + String.IsEqual(ListItem.Property(cover),1)</visible>
           </control>
@@ -4929,7 +4929,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png">white.png</texture>
+            <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
             <colordiffuse>B30B0C14</colordiffuse>
             <visible>String.IsEqual(ListItem.Property(cover),1) + String.IsEqual(ListItem.Property(playing),1)</visible>
           </control>
@@ -4950,7 +4950,7 @@
             <top>22</top>
             <width>36</width>
             <height>36</height>
-            <texture>icon_equalizer.png</texture>
+            <texture>auradeck/icon_equalizer.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(playing),1)</visible>
@@ -4997,7 +4997,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_favourite.png</texture>
+            <texture>auradeck/icon_favourite.png</texture>
             <colordiffuse>FF8B5CF6</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(starred),1)</visible>
@@ -5007,7 +5007,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_downloaded.png</texture>
+            <texture>auradeck/icon_downloaded.png</texture>
             <colordiffuse>B3FFFFFF</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(offline),1)</visible>
@@ -5041,7 +5041,7 @@
             <top>24</top>
             <width>32</width>
             <height>32</height>
-            <texture>icon_arrow.png</texture>
+            <texture>auradeck/icon_arrow.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -5065,7 +5065,7 @@
             <top>4</top>
             <width>1070</width>
             <height>72</height>
-            <texture border="12">round_12.png</texture>
+            <texture border="12">auradeck/round_12.png</texture>
             <colordiffuse>2EFFFFFF</colordiffuse>
             <visible>Control.HasFocus(4000)</visible>
           </control>
@@ -5074,7 +5074,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
+            <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
             <aspectratio>scale</aspectratio>
             <visible>[String.IsEqual(ListItem.Property(kind),song)|String.IsEqual(ListItem.Property(kind),radio)] + String.IsEqual(ListItem.Property(cover),1)</visible>
           </control>
@@ -5083,7 +5083,7 @@
             <top>10</top>
             <width>60</width>
             <height>60</height>
-            <texture diffuse="mask_round.png">white.png</texture>
+            <texture diffuse="auradeck/mask_round.png">auradeck/white.png</texture>
             <colordiffuse>B30B0C14</colordiffuse>
             <visible>String.IsEqual(ListItem.Property(cover),1) + String.IsEqual(ListItem.Property(playing),1)</visible>
           </control>
@@ -5104,7 +5104,7 @@
             <top>22</top>
             <width>36</width>
             <height>36</height>
-            <texture>icon_equalizer.png</texture>
+            <texture>auradeck/icon_equalizer.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(playing),1)</visible>
@@ -5153,7 +5153,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_favourite.png</texture>
+            <texture>auradeck/icon_favourite.png</texture>
             <colordiffuse>FF8B5CF6</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(starred),1)</visible>
@@ -5163,7 +5163,7 @@
             <top>26</top>
             <width>28</width>
             <height>28</height>
-            <texture>icon_downloaded.png</texture>
+            <texture>auradeck/icon_downloaded.png</texture>
             <colordiffuse>B3FFFFFF</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(offline),1)</visible>
@@ -5197,7 +5197,7 @@
             <top>24</top>
             <width>32</width>
             <height>32</height>
-            <texture>icon_arrow.png</texture>
+            <texture>auradeck/icon_arrow.png</texture>
             <colordiffuse>FF22D3EE</colordiffuse>
             <aspectratio>keep</aspectratio>
             <visible>String.IsEqual(ListItem.Property(kind),more)</visible>
@@ -5235,7 +5235,7 @@
       <top>520</top>
       <width>80</width>
       <height>80</height>
-      <texture>spinner.png</texture>
+      <texture>auradeck/spinner.png</texture>
       <colordiffuse>FF22D3EE</colordiffuse>
       <aspectratio>keep</aspectratio>
       <visible>!String.IsEmpty(Window.Property(busy))</visible>
@@ -5252,7 +5252,7 @@
         <top>976</top>
         <width>1920</width>
         <height>104</height>
-        <texture>white.png</texture>
+        <texture>auradeck/white.png</texture>
         <colordiffuse>F20E101B</colordiffuse>
       </control>
       <control type="image">
@@ -5260,7 +5260,7 @@
         <top>976</top>
         <width>1920</width>
         <height>1</height>
-        <texture>white.png</texture>
+        <texture>auradeck/white.png</texture>
         <colordiffuse>1AFFFFFF</colordiffuse>
       </control>
       <control type="progress">
@@ -5268,8 +5268,8 @@
         <top>976</top>
         <width>1920</width>
         <height>4</height>
-        <texturebg colordiffuse="14FFFFFF">bar_bg.png</texturebg>
-        <midtexture>bar_fill.png</midtexture>
+        <texturebg colordiffuse="14FFFFFF">auradeck/bar_bg.png</texturebg>
+        <midtexture>auradeck/bar_fill.png</midtexture>
         <info>Player.Progress</info>
       </control>
       <control type="button" id="9001">
@@ -5277,7 +5277,7 @@
         <top>986</top>
         <width>1180</width>
         <height>84</height>
-        <texturefocus border="12" colordiffuse="2EFFFFFF">round_12.png</texturefocus>
+        <texturefocus border="12" colordiffuse="2EFFFFFF">auradeck/round_12.png</texturefocus>
         <texturenofocus/>
         <label/>
         <onup>1098</onup>
@@ -5289,7 +5289,7 @@
         <top>994</top>
         <width>68</width>
         <height>68</height>
-        <texture diffuse="mask_round.png" fallback="placeholder_album.png" background="true">$INFO[Player.Art(thumb)]</texture>
+        <texture diffuse="auradeck/mask_round.png" fallback="auradeck/placeholder_album.png" background="true">$INFO[Player.Art(thumb)]</texture>
         <aspectratio>scale</aspectratio>
       </control>
       <control type="label">
@@ -5331,7 +5331,7 @@
         <top>992</top>
         <width>72</width>
         <height>72</height>
-        <texture>circle.png</texture>
+        <texture>auradeck/circle.png</texture>
         <colordiffuse>1FFFFFFF</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>!Control.HasFocus(9002)</visible>
@@ -5341,7 +5341,7 @@
         <top>992</top>
         <width>72</width>
         <height>72</height>
-        <texture>circle.png</texture>
+        <texture>auradeck/circle.png</texture>
         <colordiffuse>FF8B5CF6</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>Control.HasFocus(9002)</visible>
@@ -5364,7 +5364,7 @@
         <top>1010</top>
         <width>36</width>
         <height>36</height>
-        <texture>icon_prev.png</texture>
+        <texture>auradeck/icon_prev.png</texture>
         <colordiffuse>FFFFFFFF</colordiffuse>
         <aspectratio>keep</aspectratio>
       </control>
@@ -5373,7 +5373,7 @@
         <top>992</top>
         <width>72</width>
         <height>72</height>
-        <texture>circle.png</texture>
+        <texture>auradeck/circle.png</texture>
         <colordiffuse>1FFFFFFF</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>!Control.HasFocus(9003)</visible>
@@ -5383,7 +5383,7 @@
         <top>992</top>
         <width>72</width>
         <height>72</height>
-        <texture>circle.png</texture>
+        <texture>auradeck/circle.png</texture>
         <colordiffuse>FF8B5CF6</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>Control.HasFocus(9003)</visible>
@@ -5406,7 +5406,7 @@
         <top>1010</top>
         <width>36</width>
         <height>36</height>
-        <texture>icon_pause.png</texture>
+        <texture>auradeck/icon_pause.png</texture>
         <colordiffuse>FFFFFFFF</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>!Player.Paused</visible>
@@ -5416,7 +5416,7 @@
         <top>1010</top>
         <width>36</width>
         <height>36</height>
-        <texture>icon_play.png</texture>
+        <texture>auradeck/icon_play.png</texture>
         <colordiffuse>FFFFFFFF</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>Player.Paused</visible>
@@ -5426,7 +5426,7 @@
         <top>992</top>
         <width>72</width>
         <height>72</height>
-        <texture>circle.png</texture>
+        <texture>auradeck/circle.png</texture>
         <colordiffuse>1FFFFFFF</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>!Control.HasFocus(9004)</visible>
@@ -5436,7 +5436,7 @@
         <top>992</top>
         <width>72</width>
         <height>72</height>
-        <texture>circle.png</texture>
+        <texture>auradeck/circle.png</texture>
         <colordiffuse>FF8B5CF6</colordiffuse>
         <aspectratio>keep</aspectratio>
         <visible>Control.HasFocus(9004)</visible>
@@ -5458,7 +5458,7 @@
         <top>1010</top>
         <width>36</width>
         <height>36</height>
-        <texture>icon_next.png</texture>
+        <texture>auradeck/icon_next.png</texture>
         <colordiffuse>FFFFFFFF</colordiffuse>
         <aspectratio>keep</aspectratio>
       </control>
@@ -5468,7 +5468,7 @@
       <top>0</top>
       <width>110</width>
       <height>1080</height>
-      <texture>white.png</texture>
+      <texture>auradeck/white.png</texture>
       <colordiffuse>D90C0E18</colordiffuse>
       <visible>!Control.HasFocus(100)</visible>
     </control>
@@ -5483,7 +5483,7 @@
         <top>0</top>
         <width>380</width>
         <height>1080</height>
-        <texture>white.png</texture>
+        <texture>auradeck/white.png</texture>
         <colordiffuse>F70C0E18</colordiffuse>
       </control>
       <control type="image">
@@ -5491,7 +5491,7 @@
         <top>0</top>
         <width>160</width>
         <height>1080</height>
-        <texture>grad_h.png</texture>
+        <texture>auradeck/grad_h.png</texture>
         <colordiffuse>99000000</colordiffuse>
       </control>
       <control type="label">
@@ -5511,7 +5511,7 @@
       <top>40</top>
       <width>56</width>
       <height>56</height>
-      <texture>logo.png</texture>
+      <texture>auradeck/logo.png</texture>
       <aspectratio>keep</aspectratio>
     </control>
     <control type="list" id="100">
@@ -5529,7 +5529,7 @@
           <top>20</top>
           <width>5</width>
           <height>40</height>
-          <texture>white.png</texture>
+          <texture>auradeck/white.png</texture>
           <colordiffuse>FF22D3EE</colordiffuse>
           <visible>String.IsEqual(ListItem.Property(active),1) + !false</visible>
         </control>
@@ -5594,7 +5594,7 @@
           <top>8</top>
           <width>348</width>
           <height>64</height>
-          <texture border="20">round_20.png</texture>
+          <texture border="20">auradeck/round_20.png</texture>
           <colordiffuse>FFFFFFFF</colordiffuse>
           <visible>Control.HasFocus(100)</visible>
         </control>
@@ -5603,7 +5603,7 @@
           <top>20</top>
           <width>5</width>
           <height>40</height>
-          <texture>white.png</texture>
+          <texture>auradeck/white.png</texture>
           <colordiffuse>FF22D3EE</colordiffuse>
           <visible>String.IsEqual(ListItem.Property(active),1) + !Control.HasFocus(100)</visible>
         </control>

@@ -156,7 +156,7 @@ def ui_button(action, label, icon, style=''):
     """style: 'primary' (accent pill), 'pill' (text pill) or '' (round icon)."""
     item = _new(label, '', 'button')
     item.setProperty('action', action)
-    item.setProperty('icon', f'icon_{icon}.png')
+    item.setProperty('icon', kodi.media_path(f'icon_{icon}.png'))
     item.setProperty('style', style or 'icon')
     return item
 
@@ -170,7 +170,7 @@ def ui_history(query):
 def ui_nav(key, label, icon):
     item = _new(label, '', 'nav')
     item.setProperty('action', key)
-    item.setProperty('icon', f'icon_{icon}.png')
+    item.setProperty('icon', kodi.media_path(f'icon_{icon}.png'))
     return item
 
 

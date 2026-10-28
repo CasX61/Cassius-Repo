@@ -13,6 +13,7 @@ default.py (see kodi.open_app):
 """
 
 from resources.lib import actions, connection, kodi, offline
+from resources.lib.ui import skin
 from resources.lib.ui.window import XML, MainWindow
 
 
@@ -37,7 +38,7 @@ def run(argv):
     if not connection.configured() and not connection.run_wizard() and not offline.cached_ids():
         return
 
-    window = MainWindow(XML, kodi.addon_path(), 'Default', '1080i')
+    window = MainWindow(XML, skin.window_path(), 'Default', '1080i')
     window.setup(connection.client_from_settings(), start=command or None)
     try:
         window.doModal()

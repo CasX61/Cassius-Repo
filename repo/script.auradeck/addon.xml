@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.auradeck" name="Aura-Deck" version="1.0.2" provider-name="CasX61">
+<addon id="script.auradeck" name="Aura-Deck" version="1.0.3" provider-name="CasX61">
     <requires>
         <!-- 3.0.1 = Kodi 20 Nexus: ListItem.getMusicInfoTag() and friends -->
         <import addon="xbmc.python" version="3.0.1"/>
@@ -29,6 +29,12 @@
         <website>https://github.com/CasX61/Aura-Deck--Navidrome-Client-for-Kodi</website>
         <source>https://github.com/CasX61/Aura-Deck--Navidrome-Client-for-Kodi</source>
         <news>
+1.0.3
+===========
+
+- Other skins: fonts are matched to the active skin, so sizes stay right
+- Other skins: graphics like the logo are no longer replaced by the skin's own
+
 1.0.2
 ===========
 
