@@ -557,7 +557,7 @@
       <onleft>6013</onleft>
       <visible>String.IsEqual(Window.Property(panel),lyrics) + [String.IsEqual(Window.Property(lyrics),synced) | String.IsEqual(Window.Property(lyrics),plain)]</visible>
       <itemlayout width="920" height="136">
-        <control type="label">
+        <control type="textbox">
           <left>0</left>
           <top>0</top>
           <width>920</width>
@@ -567,10 +567,9 @@
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[ListItem.Label]</label>
-          <wrapmultiline>true</wrapmultiline>
           <visible>String.IsEqual(Window.Property(lyrics),synced)</visible>
         </control>
-        <control type="label">
+        <control type="textbox">
           <left>0</left>
           <top>0</top>
           <width>920</width>
@@ -580,7 +579,6 @@
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[ListItem.Label]</label>
-          <wrapmultiline>true</wrapmultiline>
           <visible>!String.IsEqual(Window.Property(lyrics),synced)</visible>
         </control>
       </itemlayout>
@@ -594,7 +592,7 @@
           <colordiffuse>2EFFFFFF</colordiffuse>
           <visible>Control.HasFocus(6100)</visible>
         </control>
-        <control type="label">
+        <control type="textbox">
           <left>0</left>
           <top>0</top>
           <width>920</width>
@@ -604,10 +602,9 @@
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[ListItem.Label]</label>
-          <wrapmultiline>true</wrapmultiline>
           <visible>String.IsEqual(Window.Property(lyrics),synced) + String.IsEmpty(ListItem.Property(long))</visible>
         </control>
-        <control type="label">
+        <control type="textbox">
           <left>0</left>
           <top>0</top>
           <width>920</width>
@@ -617,10 +614,9 @@
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[ListItem.Label]</label>
-          <wrapmultiline>true</wrapmultiline>
           <visible>String.IsEqual(Window.Property(lyrics),synced) + !String.IsEmpty(ListItem.Property(long))</visible>
         </control>
-        <control type="label">
+        <control type="textbox">
           <left>0</left>
           <top>0</top>
           <width>920</width>
@@ -630,7 +626,6 @@
           <align>left</align>
           <aligny>center</aligny>
           <label>$INFO[ListItem.Label]</label>
-          <wrapmultiline>true</wrapmultiline>
           <visible>!String.IsEqual(Window.Property(lyrics),synced)</visible>
         </control>
       </focusedlayout>

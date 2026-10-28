@@ -1,3 +1,8 @@
+1.0.2
+===========
+
+- Lyrics fix: long lines wrap instead of being cut off
+
 1.0.1
 ===========
 
